@@ -1,5 +1,7 @@
 # AdaptiveNN (NMI'25)
 
+[![DOI](https://zenodo.org/badge/1036530001.svg)](https://doi.org/10.5281/zenodo.16810995)
+
 This repo contains the official code and pre-trained models for the *Nature Machine Intelligence* paper **"Emulating Human-like Adaptive Vision for Efficient and Flexible Machine Visual Perception"**
 
 <p align="center">
