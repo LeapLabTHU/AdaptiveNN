@@ -85,7 +85,7 @@ If you find our code or papers useful for your research, please cite:
 ## Contact
 If you have any question, feel free to contact the authors.
 
-Yulin Wang: wang-yl19@mails.tsinghua.edu.cn
+Yulin Wang: yulin-wang@tsinghua.edu.cn
 
 Yang Yue: le-y22@mails.tsinghua.edu.cn
 
