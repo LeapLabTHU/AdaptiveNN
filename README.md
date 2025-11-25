@@ -1,6 +1,6 @@
 # AdaptiveNN (NMI'25)
 
-[![DOI](https://zenodo.org/badge/1036530001.svg)](https://doi.org/10.5281/zenodo.16810995)
+<!-- [![DOI](https://zenodo.org/badge/1036530001.svg)](https://doi.org/10.5281/zenodo.16810995) -->
 <a href='https://arxiv.org/abs/2509.15333'><img src='https://img.shields.io/badge/Arxiv-2509.15333-red'>
 
 
