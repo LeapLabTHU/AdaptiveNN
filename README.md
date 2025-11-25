@@ -26,9 +26,9 @@ This repo contains the official code and pre-trained models for the paper **[Ada
 ## Abstract
 Human vision is highly adaptive, efficiently sampling intricate environments by sequentially fixating on task-relevant regions. In contrast, prevailing machine vision models passively process entire scenes at once, resulting in excessive resource demands scaling with spatial–temporal input resolution and model size, yielding critical limitations impeding both future advancements and real-world application. Here we introduce AdaptiveNN, a general framework aiming to enable the transition from ‘passive’ to ‘active and adaptive’ vision models. AdaptiveNN formulates visual perception as a coarse-to-fine sequential decision-making process, progressively identifying and attending to regions pertinent to the task, incrementally combining information across fixations and actively concluding observation when sufficient. We establish a theory integrating representation learning with self-rewarding reinforcement learning, enabling end-to-end training of the non-differentiable AdaptiveNN without additional supervision on fixation locations. We assess AdaptiveNN on 17 benchmarks spanning 9 tasks, including large-scale visual recognition, fine-grained discrimination, visual search, processing images from real driving and medical scenarios, language-driven embodied artificial intelligence and side-by-side comparisons with humans. AdaptiveNN achieves up to 28 times inference cost reduction without sacrificing accuracy, flexibly adapts to varying task demands and resource budgets without retraining, and provides enhanced interpretability via its fixation patterns, demonstrating a promising avenue towards efficient, flexible and interpretable computer vision. Furthermore, AdaptiveNN exhibits closely human-like perceptual behaviours in many cases, revealing its potential as a valuable tool for investigating visual cognition.
 
-<h4 align="center">
+<h3 align="center">
 Links: <a href="https://www.nature.com/articles/s42256-025-01130-7">NMI Paper</a> |<a href="https://www.tsinghua.edu.cn/info/1175/122677.htm">清华新闻Tsinghua News</a> | <a href="https://mp.weixin.qq.com/s/BmuptumV08AXry9V6hiLVg">清华自动化新闻Tsinghua DA News</a>
-</h4>
+</h3>
 
 ## Usage
 
