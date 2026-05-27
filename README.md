@@ -3,16 +3,15 @@
 <!-- [![DOI](https://zenodo.org/badge/1036530001.svg)](https://doi.org/10.5281/zenodo.16810995) -->
 <a href='https://arxiv.org/abs/2509.15333'><img src='https://img.shields.io/badge/Arxiv-2509.15333-red'>
 
-
-<p align="center">
-<img src="assets/overview.png" width=100% height=100% 
-class="center">
-</p>
-
-
 <!-- This repo contains the official code and pre-trained models for the *Nature Machine Intelligence* paper **"[Emulating Human-like Adaptive Vision for Efficient and Flexible Machine Visual Perception](https://www.nature.com/articles/s42256-025-01130-7)"** -->
 
 This repo contains the official code and pre-trained models for the paper **[AdaptiveNN](https://www.nature.com/articles/s42256-025-01130-7)**.
+
+
+<h3 align="left">
+Update: Jittor implementation of AdaptiveNN is available <a href="https://github.com/LeapLabTHU/AdaptiveNN-Jittor">here</a>!.
+</h3>
+
 
 > **Title:** &emsp;&emsp;Emulating Human-like Adaptive Vision for Efficient and Flexible Machine Visual Perception
 > 
@@ -22,10 +21,15 @@ This repo contains the official code and pre-trained models for the paper **[Ada
 > 
 > **Publish:** &nbsp;&nbsp;Nature Machine Intelligence 2025
 >
+> **Links**: <a href="https://www.nature.com/articles/s42256-025-01130-7">NMI Paper</a>  |<a href="https://www.tsinghua.edu.cn/info/1175/122677.htm">清华新闻Tsinghua News</a> | <a href="https://mp.weixin.qq.com/s/BmuptumV08AXry9V6hiLVg">清华自动化新闻Tsinghua DA News</a>
+> 
 
-<h3 align="center">
-Links: <a href="https://www.nature.com/articles/s42256-025-01130-7">NMI Paper</a> |<a href="https://www.tsinghua.edu.cn/info/1175/122677.htm">清华新闻Tsinghua News</a> | <a href="https://mp.weixin.qq.com/s/BmuptumV08AXry9V6hiLVg">清华自动化新闻Tsinghua DA News</a>
-</h3>
+
+<p align="center">
+<img src="assets/overview.png" width=75% 
+class="center">
+</p>
+
 
 ## Abstract
 Human vision is highly adaptive, efficiently sampling intricate environments by sequentially fixating on task-relevant regions. In contrast, prevailing machine vision models passively process entire scenes at once, resulting in excessive resource demands scaling with spatial–temporal input resolution and model size, yielding critical limitations impeding both future advancements and real-world application. Here we introduce AdaptiveNN, a general framework aiming to enable the transition from ‘passive’ to ‘active and adaptive’ vision models. AdaptiveNN formulates visual perception as a coarse-to-fine sequential decision-making process, progressively identifying and attending to regions pertinent to the task, incrementally combining information across fixations and actively concluding observation when sufficient. We establish a theory integrating representation learning with self-rewarding reinforcement learning, enabling end-to-end training of the non-differentiable AdaptiveNN without additional supervision on fixation locations. We assess AdaptiveNN on 17 benchmarks spanning 9 tasks, including large-scale visual recognition, fine-grained discrimination, visual search, processing images from real driving and medical scenarios, language-driven embodied artificial intelligence and side-by-side comparisons with humans. AdaptiveNN achieves up to 28 times inference cost reduction without sacrificing accuracy, flexibly adapts to varying task demands and resource budgets without retraining, and provides enhanced interpretability via its fixation patterns, demonstrating a promising avenue towards efficient, flexible and interpretable computer vision. Furthermore, AdaptiveNN exhibits closely human-like perceptual behaviours in many cases, revealing its potential as a valuable tool for investigating visual cognition.
@@ -61,11 +65,14 @@ If you find our code or papers useful for your research, please cite:
 ```
 @article{wang2025emulating,
   title={Emulating human-like adaptive vision for efficient and flexible machine visual perception},
-  author={Wang, Yulin and Yue, Yang and Yue, Yang and Wang, Huanqian and Jiang, Haojun and Han, Yizeng and Ni, Zanlin and Pu, Yifan and Shi, Minglei and Lu, Rui and others},
+  author={Wang, Yulin and Yue, Yang and Yue, Yang and Wang, Huanqian and Jiang, Haojun and Han, Yizeng and Ni, Zanlin and Pu, Yifan and Shi, Minglei and Lu, Rui and Yang, Qisen and Zhao, Angxiao and Xia, Zhuofan and Song, Shiji and Huang, Gao},
   journal={Nature Machine Intelligence},
-  pages={1--19},
+  volume={7},
+  number={11},
+  pages={1804--1822},
   year={2025},
-  publisher={Nature Publishing Group UK London}
+  publisher={Nature Publishing Group},
+  doi={10.1038/s42256-025-01130-7}
 }
 ```
 
