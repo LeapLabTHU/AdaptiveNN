@@ -8,9 +8,7 @@
 This repo contains the official code and pre-trained models for the paper **[AdaptiveNN](https://www.nature.com/articles/s42256-025-01130-7)**.
 
 
-<h3 align="left">
-Update: Jittor implementation of AdaptiveNN is available <a href="https://github.com/LeapLabTHU/AdaptiveNN-Jittor">here</a>!.
-</h3>
+> **Update**: **Jittor implementation** of AdaptiveNN is available at [https://github.com/LeapLabTHU/AdaptiveNN-Jittor](https://github.com/LeapLabTHU/AdaptiveNN-Jittor)!
 
 
 > **Title:** &emsp;&emsp;Emulating Human-like Adaptive Vision for Efficient and Flexible Machine Visual Perception
